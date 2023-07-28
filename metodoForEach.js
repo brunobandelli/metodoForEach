@@ -12,7 +12,7 @@ Ou seja, para cada item desse array, ele irá executar alguma ação.
 
 
 
-A sintaxe do forEach é a seguinte:
+SINTAXE:
 
 O forEach é um metodo que precisa que você passe no máximo 3 parametros (elemento, indice, array),
 sendo que o elemento é obrigatório. E o índice e o array são opcionais funcionando de forma respectiva.
@@ -48,7 +48,7 @@ e executar alguma operação para cada um deles, sem a necessidade de criar um n
 
 OBS: 
 É importante notar que o forEach NÃO CRIA UM NOVO ARRAY como resultado, 
-ele apenas percorre os elementos existentes. 
+ele apenas percorre os elementos existentes, em desvantagem ao metodo map. 
 
 Se você precisar criar um novo array com base nos elementos do array original 
 terá que utilizar outros métodos como map, filter, reduce, entre outros.
